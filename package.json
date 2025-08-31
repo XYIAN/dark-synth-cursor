@@ -1,31 +1,55 @@
 {
-  "name": "midnight-synth",
-  "displayName": "Midnight Synth",
-  "description": "A dark purple/cyan theme for late night coding.",
+  "name": "dark-synth-theme-xys",
+  "displayName": "Dark Synth",
+  "description": "A dark purple/cyan theme for Cursor IDE. A mix of Tokyo Night, Synthwave '84, and Celestial aesthetics.",
+  "version": "1.0.0",
+  "publisher": "XYIAN",
+  "license": "MIT",
   "repository": {
     "type": "git",
-    "url": "https://github.com/emkelley/midnight-synth"
+    "url": "https://github.com/XYIAN/dark-synth-cursor.git"
   },
-  "scripts": {
-    "build:dev": "vsce package",
-    "publish": "vsce publish"
+  "homepage": "https://github.com/XYIAN/dark-synth-cursor#readme",
+  "bugs": {
+    "url": "https://github.com/XYIAN/dark-synth-cursor/issues"
   },
-  "icon": "images/icon.png",
-  "publisher": "ekelley",
-  "version": "2.2.2",
   "engines": {
     "vscode": "^1.46.0"
   },
   "categories": [
     "Themes"
   ],
+  "keywords": [
+    "theme",
+    "dark",
+    "purple",
+    "cyan",
+    "synthwave",
+    "cursor",
+    "ide",
+    "midnight-synth",
+    "tokyo-night",
+    "celestial"
+  ],
+  "icon": "images/icon.png",
+  "galleryBanner": {
+    "color": "#0c0020",
+    "theme": "dark"
+  },
   "contributes": {
     "themes": [
       {
-        "label": "Midnight Synth",
+        "label": "Dark Synth",
         "uiTheme": "vs-dark",
-        "path": "./themes/Midnight Synth-color-theme.json"
+        "path": "./themes/Dark Synth-color-theme.json"
       }
     ]
+  },
+  "scripts": {
+    "build:dev": "vsce package",
+    "publish": "vsce publish"
+  },
+  "devDependencies": {
+    "@vscode/vsce": "^3.6.0"
   }
 }
